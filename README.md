@@ -18,7 +18,7 @@
 
 - [Menu Options](#Menu-Options-There-are-Four-Menu-Options-Available)
 - [Troubleshooting Error Messages:](#Troubleshooting-Error-Messages)
-	- [Could not open file CS210_Project_Three_Input_File.txt](#Could-not-open-file_CS210_Project_Three_Input_Filetxt)
+	- [Could not open file CS210_Project_Three_Input_File.txt](#could-not-open-file-cs210_project_three_input_filetxt)
 	- [Invalid Choice. Please try again.](#Invalid-Choice-Please-try-again)
 	- [Item does not exist, please try again.](#Item-does-not-exist-please-try-again)
 
