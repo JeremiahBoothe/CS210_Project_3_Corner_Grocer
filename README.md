@@ -4,19 +4,19 @@
 - [Summary](#Summary)
 - [Acheivements](#Achievements)
 - [Enhancements](#Enhancement)
-- [Challenges](#Introduction)
+- [Challenges](#Challenges)
 - [Support](#Support)
-- [Transferrable Skills](#Transferrable-Skills)
+- [Transferable Skills](#Transferable-Skills)
 - [Extensibility](#Extensibility)
 
 [Project Documentation](#Project-Documentation)
 - [Introduction](#Introduction)
 - [Features and Functionality](#Features-and-Functionality)
 	- [Automatic Conversion](#Automatic-Conversion)
-	- [Error Handling](#Built-in-error-handling-of-Read/Write-&-Input/Output)
+	- [Error Handling](#Built-in-error-handling-of-Read-Write-Input-Output)
 	- [Timestamped Output Files](#Timestamped-Output-Files)
 
-- [Menu Options](#Menu-Options)
+- [Menu Options](#Menu-Options:)
 - [Troubleshooting Error Messages:](#Troubleshooting-Error-Messages)
 	- [Could not open file CS210_Project_Three_Input_File.txt](#Could-not-open-file-CS210_Project_Three_Input_File-txt)
 	- [Invalid Choice. Please try again.](#Invalid-Choice-Please-try-again)
@@ -28,16 +28,16 @@
 
 *Summarize the project and what problem it was solving.*
 
-Project three involved developing software for a grocery store named Corner Grocer. Their need was an easy way to identify how often each item in their produce section is being purchased. The problem was the current purchase system logged each item as a single entry. This could potentially cause hours of extra work as they hand tally a long list of duplicates into a much shorter list with quantities, every single day.
+Project three involved developing software for a grocery store named Corner Grocer. Their need was an easy way to identify how often each item in their produce section is being purchased. The problem was the current purchase system logged each item as a single entry. This could potentially cause hours of extra work as they hand-tally a long list of duplicates into a much shorter list with quantities, every single day.
 
 My software addresses the issue by tallying each item, eliminating duplicates, and generating a unique list with individual entries and purchase frequencies. This list is exported with a timestamp to prevent accidental overwrites, providing a historical reference. Corner Grocer can easily view the list with numerical and histogram values, and search the list for individual items.
 
 ## Achievements
 *What did you do particularly well?*
 
-I approached the project with the end user in mindand had some creative ideas of what the implementation would require. Setting out not knowing if I'd succeed with my ideas or have to go in a different direction. I put in a lot of time and effort to test the boundaries of my idea. 
+I approached the project with the end user in mind and had some creative ideas of what the implementation would require. Setting out not knowing if I'd succeed with my ideas or have to go in a different direction. I put in a lot of time and effort to test the boundaries of my idea. 
 
-My utilization of the C++ map as a means to create unique keys based on item name, and the value as a means to hold pointers to class objects. There were many failed and partial successes along the way and even now the concepts I learned through the process have inspired more efficient approaches. The best thing I did was not give up, lost a bit of sleep unfortunately, but sometimes it's best to just let inspiration lead the way.
+I utilized the C++ map to create unique keys based on item name, and assigned pointers to class objects as the value. There were many failed and partial successes along the way and even now the concepts I learned throughout the process have inspired more efficient approaches. The best thing I did was not give up, lost a bit of sleep unfortunately, but sometimes it's best to just let inspiration lead the way.
 
 ## Enhancement
 
@@ -47,11 +47,11 @@ My code is overall clean and well organized but as the functionality of the prog
 
 ### Separation of Concerns
 
-One example is the *map* and *menu* functions are grouped together. There were efforts toward separating them but some minor code issues as a result and some gaps in understanding on a few concepts I was applying resulted in the current iteration. This is a process I already made some attempts on but had to abandon them for the assignment deadline. I will talk about that below in both *Security* and *Refactoring*.
+One example is the *map* and *menu* functions are grouped together. There were efforts toward separating them but some minor code issues resulting from gaps in understanding led to the current iteration. This is a process I have already made attempts at ultimately abandoning them for the assignment deadline. I will talk about that below in both *Security* and *Refactoring*.
 
 ### Security
 
-While I do have a relatively decent understanding of scoping, at times I felt my application was subpar, and resulted in tossing functions into std and other namespaces for the sake of it rather than the need for it.  I minimized that as much as I could get away with and still have the code function properly. 
+While I do have a relatively decent understanding of scoping on a superficial level, at times I felt my application was subpar, and resulted in tossing functions into std for the sake of it rather than the need for it. I minimized that as much as I could get away with and still have the code function properly.
 
 ### Refactoring
 
@@ -61,9 +61,9 @@ The task of refactoring is not a big one for this program, there are a handful o
 
 *Which pieces of the code did you find most challenging to write, and how did you overcome this?* 
 
-The first big challenge was dynamically creating objects. I'm very familiar with manually instantiating a class and assigning it a name to create unique objects of the same type, but doing so dynamically was an entirely different set of challenges. The week prior my curiosity led me to experimenting with dynamically creating variable names with little success, although I could likely achieve it now that this project is finished. The solution is somewhat unique to the map, because I needed a place to store these dynamic creations to keep them alive through scope changes.  
+The first big challenge was dynamically creating objects. I'm familiar with manually instantiating a class and assigning it a name to create unique objects of the same type, but doing so dynamically was an entirely different set of challenges. The week prior my curiosity led me to experimenting with dynamically creating variable names with little success, although I could likely achieve it now that this project is finished. The solution is somewhat unique to the map, because I needed a place to store these dynamic creations to keep them alive through scope changes.  
 
-Considering the requirements of the program, with the need to take an input that contains duplicates and return an output that is free of duplicates, a map seemed like a logical means to accomplish more with less, and paired nicely with dynamically creating unique class instantiations. So by this point I had the idea of creating the object, and assigning the objects name to the key and the unique_ptr representation of the object to the value.  This allowed me to remove redundancy right away, and my dynamic creations could survive in the map which could be passed around and worked with as needed.  Figuring out how to pass around the map to other functions and apply pointers within the map to the correct object and even further at the quantity was the next big challenge.  It just took a bit of time and a lot of attempts but it worked out in the end. 
+Considering the requirements of the program, with the need to take an input that contains duplicates and return an output that is free of duplicates, a map seemed like a logical means to accomplish more with less, and paired nicely with dynamically creating unique class instantiations. So by this point I had the idea of creating the object, assigning the objects name to the key and the *unique_ptr* representation of the object to the value. This allowed me to remove redundancy right away, and my dynamic creations could survive in the map which could be passed around and worked with as needed. Figuring out how to pass around the map to other functions and apply pointers within the map to the correct object and even further at the quantity held in the object was the next big challenge.  It just took a bit of time and a lot of attempts but it worked out in the end.
 
 Over the last week I struggled with a few issues regarding things not being in scope, I solved those issues through *#include,* and while I minimized that usage, I feel it wasn't ideal. I was also making attempts at using nested namespaces and anonymous namespaces to more thoughtfully control the access classes and functions didn't rely on *#include* and *using namespace std*; as a crutch.
 
@@ -85,9 +85,9 @@ The linked list lab gave me some new insights into working with pointers that wo
 I did my best to name things appropriately, and focus on code aesthetic with consistent formatting. 
 
 The use of an alias for the map helped simplify the arguments of functions so they were less cluttered looking which took a bit of load off my mind reading the full map definition every time. 
-I adhered to SOLID principles as much as possible while meeting the deadline. I avoided hard coded values and with just a few alterations some of the embedded variable values could be made accessible. 
+I adhered to SOLID principles when I could do so without breaking the code and avoided hard coded values. With just a few alterations some of the embedded variable values could be made accessible. 
 
-Further, I have some ideas for creating an external config file that could be scanned in before the read and set the variables for the file name and location, as well as the values for characters in case the '*' and '$' characters weren't desireable.
+Further, I have some ideas for creating an external config file that could be scanned in before readthe list to a map. The config file would contain the values to customize the name, location and extension of the input file, as well as the values for characters in case the '*' and '$' characters weren't desireable.
 
 # **Project Documentation**
 **Corner Grocer: Daily Purchase Software**
