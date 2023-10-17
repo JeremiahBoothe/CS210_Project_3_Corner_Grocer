@@ -9,14 +9,14 @@
 	- [Error Handling](#Built-in-error-handling-of-Read/Write-&-Input/Output)
 	- [Timestamped Output Files](#Timestamped-Output-Files)
 
-$${\color{red}
+$${\color{red}word}$$
 - [Menu Options](#Menu-Options)
 - [Troubleshooting Error Messages:](#Troubleshooting-Error-Messages)
 	- [Could not open file CS210_Project_Three_Input_File.txt](#Could-not-open-file-CS210_Project_Three_Input_File.txt.)
 	- [Invalid Choice. Please try again.](#Invalid-Choice.-Please-try-again.)
 	- [Item does not exist, please try again.](#-Item-does-not-exist,-please-try-again)
 
-	}$$
+
 
 [Project Reflection](#Project-Reflection)
 - [Summary](#Introduction)
