@@ -8,17 +8,22 @@
 	- [Automatic Conversion](#Automatic-Conversion)
 	- [Error Handling](#Built-in-error-handling-of-Read/Write-&-Input/Output)
 	- [Timestamped Output Files](#Timestamped-Output-Files)
-- [Menu Options](#Menu-Options:-There-are-Four-Menu-Options-Available)
-- [Troubleshooting:](#Troubleshooting)
-- [Error Message: Could not open file CS210_Project_Three_Input_File.txt](#Error-Message":"-Could-not-open-file-CS210_Project_Three_Input_File.txt)
-- [Error Message: Invalid Choice. Please try again.](#Error-Message:-Invalid-Choice.-Please-try-again)
-- [Error Message: Item does not exist, please try again.](#Error-Message:-Item-does-not-exist,-please-try-again)
+
+$${\color{red}
+- [Menu Options](#Menu-Options)
+- [Troubleshooting Error Messages:](#Troubleshooting-Error-Messages)
+	- [Could not open file CS210_Project_Three_Input_File.txt](#Could-not-open-file-CS210_Project_Three_Input_File.txt.)
+	- [Invalid Choice. Please try again.](#Invalid-Choice.-Please-try-again.)
+	- [Item does not exist, please try again.](#-Item-does-not-exist,-please-try-again)
+
+	}$$
 
 [Project Reflection](#Project-Reflection)
 - [Summary](#Introduction)
 - [Acheivements](#Achievements)
 - [Enhancements](#Enhancement)
 - [Challenges](#Introduction)
+- [Support](#Support)
 - [Transferrable Skills](#Transferrable-Skills)
 - [Extensibility](#Extensibility)
 
@@ -27,19 +32,22 @@
 *Summarize the project and what problem it was solving.*
 
 ## Achievements
-What did you do particularly well?
+*What did you do particularly well?*
 
 ## Enhancement
-Where could you enhance your code? How would these improvements make your code more efficient, secure, and so on?
+*Where could you enhance your code? How would these improvements make your code more efficient, secure, and so on?*
 
 ## Challenges
-Which pieces of the code did you find most challenging to write, and how did you overcome this? What tools or resources are you adding to your support network?
+*Which pieces of the code did you find most challenging to write, and how did you overcome this?* 
+
+## Support
+*What tools or resources are you adding to your support network?*
 
 ## Transferable Skills
-What skills from this project will be particularly transferable to other projects or course work?
+*What skills from this project will be particularly transferable to other projects or course work?*
 
 ## Extensibility
-How did you make this program maintainable, readable, and adaptable?
+*How did you make this program maintainable, readable, and adaptable?*
 
 # **Project Documentation**
 **Corner Grocer: Daily Purchase Software**
@@ -104,14 +112,14 @@ Converts daily purchase log automatically without the need for user input. Simpl
 4. Menu option 4 exits the program.
 ![image](https://github.com/JeremiahBoothe/CS210_Project_3_Corner_Grocer/assets/78677784/ce44045c-0da6-4687-8afc-3de8c5875031)
 
-## **Troubleshooting:**
-### **Error Message: Could not open file** **CS210_Project_Three_Input_File.txt**.
+## **Troubleshooting Error Messages:**
+### **Could not open file CS210_Project_Three_Input_File.txt.**
 - Ensure input file is correctly named **_CS210_Project_Three_Input_File.txt_**
 - Ensure input file is in the directory with GroceryItem.exe
 
-### Error Message: Invalid Choice. Please try again.
+### **Invalid Choice. Please try again.**
 - Make sure a single number value between one and four is being input.
 
-### Error Message: Item does not exist, please try again.
+### Item does not exist, please try again.
 - Check spelling for any typos. When unsure if item exists, run option 2 or 3 and check the list.
 
