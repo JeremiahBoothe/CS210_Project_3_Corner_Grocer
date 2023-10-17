@@ -12,6 +12,22 @@ How did you make this program maintainable, readable, and adaptable?
 
 [Project Documentation](#-Project-Documentation)
 
+- [Introduction](#-Introduction)
+- [Features and Functionality](#-Features-and-Functionality:)
+- [Automatic Conversion](#-Automatic-Conversion:)
+- [Error Handling](#-Built-in-error-handling-of-Read/Write-&-Input/Output:)
+- [Timestamped Output Files](#-Timestamped-Output-Files:)
+- [Menu Options:](#-Menu-Options:)
+- [There are Four Menu Options Available:](#-There-are-Four-Menu-Options-Available:)
+- [Troubleshooting:](#-Troubleshooting:)
+- [Error Message: Could not open file CS210_Project_Three_Input_File.txt](#-Error-Message:-Could-not-open-file-CS210_Project_Three_Input_File.txt)
+- [Error Message: Invalid Choice. Please try again.](#-Error-Message:-Invalid-Choice.-Please-try-again.)
+- [Error Message: Item does not exist, please try again.](#-Error-Message:-Item-does-not-exist,-please-try-again.)
+- [Introduction](#-Introduction)
+- [Introduction](#-Introduction)
+- [Introduction](#-Introduction)
+
+
 # **Project Reflection**
 
 
@@ -60,14 +76,14 @@ Converts daily purchase log automatically without the need for user input. Simpl
 
 - 8.     If an error message appears on screen at any point, see Troubleshooting.
 
-## **Timestamped output files:**
+## **Timestamped Futput Files:**
 
 - ·       Each output file is generated with a unique name, using an international date and military time format: d:m:y:h:m:s.(ie., frequency_d_m_y_h_m_s.dat). 
 ![image](https://github.com/JeremiahBoothe/CS210_Project_3_Corner_Grocer/assets/78677784/8f75ebd4-bc98-40cd-8520-4da53c9e1c93)
 
 ## **Menu Options:**
 
-## **There are 4 menu options available:**
+## **There are Four Menu Options Available:**
 
 **Note: Press the corresponding number key followed by enter(return) to access each option.**
 
@@ -91,7 +107,7 @@ Converts daily purchase log automatically without the need for user input. Simpl
 
 ## **Troubleshooting:**
 
-### **Error Message:** **Could not open file** **CS210_Project_Three_Input_File.txt**
+### **Error Message:** **Could not open file** **CS210_Project_Three_Input_File.txt**.
 
 - ·       Ensure input file is correctly named **_CS210_Project_Three_Input_File.txt_**
 
