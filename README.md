@@ -72,6 +72,8 @@ Over the last week I struggled with a few issues regarding things not being in s
 
 Gaining(more->experience("C++")); helped me understand what's going on under the hood of higher level programming languages such as Kotlin, Java, Python.
 
+There were some great reference links provided throughout the course as well that I've added to my personal notes in obsidian.
+
 ## Transferable Skills
 *What skills from this project will be particularly transferable to other projects or course work?*
 
