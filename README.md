@@ -10,7 +10,7 @@
 	- [Timestamped Output Files](#Timestamped-Output-Files)
 - [Menu Options](#Menu-Options:-There-are-Four-Menu-Options-Available)
 - [Troubleshooting:](#Troubleshooting)
-- [Error Message: Could not open file CS210_Project_Three_Input_File.txt](#Error-Message:-Could-not-open-file-CS210_Project_Three_Input_File.txt)
+- [Error Message: Could not open file CS210_Project_Three_Input_File.txt](#Error-Message":"-Could-not-open-file-CS210_Project_Three_Input_File.txt)
 - [Error Message: Invalid Choice. Please try again.](#Error-Message:-Invalid-Choice.-Please-try-again)
 - [Error Message: Item does not exist, please try again.](#Error-Message:-Item-does-not-exist,-please-try-again)
 
@@ -105,7 +105,7 @@ Converts daily purchase log automatically without the need for user input. Simpl
 ![image](https://github.com/JeremiahBoothe/CS210_Project_3_Corner_Grocer/assets/78677784/ce44045c-0da6-4687-8afc-3de8c5875031)
 
 ## **Troubleshooting:**
-### **Error Message:** **Could not open file** **CS210_Project_Three_Input_File.txt**.
+### **Error Message: Could not open file** **CS210_Project_Three_Input_File.txt**.
 - Ensure input file is correctly named **_CS210_Project_Three_Input_File.txt_**
 - Ensure input file is in the directory with GroceryItem.exe
 
