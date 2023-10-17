@@ -13,12 +13,12 @@
 - [Introduction](#Introduction)
 - [Features and Functionality](#Features-and-Functionality)
 	- [Automatic Conversion](#Automatic-Conversion)
-	- [Error Handling](#Built-in-error-handling-of-Read-Write-Input-Output)
+	- [Error Handling](#Built-in-error-handling-of-ReadWrite--InputOutput)
 	- [Timestamped Output Files](#Timestamped-Output-Files)
 
 - [Menu Options](#Menu-Options-There-are-Four-Menu-Options-Available)
 - [Troubleshooting Error Messages:](#Troubleshooting-Error-Messages)
-	- [Could not open file CS210_Project_Three_Input_File.txt](#Could-not-open-file-CS210-Project-Three-Input-File-txt)
+	- [Could not open file CS210_Project_Three_Input_File.txt](#Could-not-open-file-CS210-Project-Three-Input-Filetxt)
 	- [Invalid Choice. Please try again.](#Invalid-Choice-Please-try-again)
 	- [Item does not exist, please try again.](#Item-does-not-exist-please-try-again)
 
@@ -113,20 +113,24 @@ Converts daily purchase log automatically without the need for user input. Simpl
 ### **Built in error handling of Read/Write & Input/Output:**
 
 1. If a file is missing or cannot be opened an error will be displayed with the name of the file in question.
+
 ![image](https://github.com/JeremiahBoothe/CS210_Project_3_Corner_Grocer/assets/78677784/14a6e6c8-9d1b-4e49-ae96-13de88ccb0ee)
 
 
 2. Handles incorrect inputs at all levels and provides a new prompt to try again.
+
 ![image](https://github.com/JeremiahBoothe/CS210_Project_3_Corner_Grocer/assets/78677784/429c4b11-e551-4d13-b73a-aa2877faad2c)
 
 3. Upon execution a read/write message is displayed, for smaller files this may go unnoticed, and the menu will disappear immediately. 
 
-4. When the menu options are displayed, everything worked correctly.  
+4. When the menu options are displayed, everything worked correctly.
+
 ![image](https://github.com/JeremiahBoothe/CS210_Project_3_Corner_Grocer/assets/78677784/604c81f1-8ef9-40ac-ab8f-62344d9bf9f2)
 
 5. Search for item by name or display the full list in either integer representations or histogram representations of quantity.
 
 6. Handles case when dealing with searches.  (ie. Yams, yAms, YaMs, etc.. are all perfectly valid entries.)
+
 ![image](https://github.com/JeremiahBoothe/CS210_Project_3_Corner_Grocer/assets/78677784/e05cfab7-7947-4a1f-a384-d9e1116e510b)
 
 7. For larger files, with more time for the read/write process to occur, the read/write output messages will be visible. This is normal for very significantly large files. The program will continue to the menu when it has finished processing.
@@ -135,21 +139,26 @@ Converts daily purchase log automatically without the need for user input. Simpl
 
 ### **Timestamped Output Files:**
 - Each output file is generated with a unique name, using an international date and military time format: d:m:y:h:m:s.(ie., frequency_d_m_y_h_m_s.dat).
+
 ![image](https://github.com/JeremiahBoothe/CS210_Project_3_Corner_Grocer/assets/78677784/8f75ebd4-bc98-40cd-8520-4da53c9e1c93)
 
 ## **Menu Options: There are Four Menu Options Available:**
 *Note: Press the corresponding number key followed by enter(return) to access each option.*
 
 1. Menu option 1 allows you to search for specific grocery items by name. The item will be displayed with the daily total.
+
 ![image](https://github.com/JeremiahBoothe/CS210_Project_3_Corner_Grocer/assets/78677784/00899ebe-cac7-4145-9970-155a0aa19fde)
 
 2. Menu option 2 allows you to display all items purchased for the day with the quantity of purchase represented as an integer value.
+
 ![image](https://github.com/JeremiahBoothe/CS210_Project_3_Corner_Grocer/assets/78677784/e75a946c-b82d-4ae9-9e72-074c9e35a7f0)
 
 3. Menu option 3 allows you to display all items purchased for the day with the quantity of purchases in histogram form represented by the ‘$’ character. Say ka-ching when you see those dollar signs.
+
 ![image](https://github.com/JeremiahBoothe/CS210_Project_3_Corner_Grocer/assets/78677784/e81299a5-2bb0-46cd-9276-ed2323d61907)
 
 4. Menu option 4 exits the program.
+
 ![image](https://github.com/JeremiahBoothe/CS210_Project_3_Corner_Grocer/assets/78677784/ce44045c-0da6-4687-8afc-3de8c5875031)
 
 ## **Troubleshooting Error Messages:**
