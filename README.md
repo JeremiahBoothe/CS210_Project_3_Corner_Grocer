@@ -79,7 +79,7 @@ There were some great reference links provided throughout the course as well tha
 
 This is the first programming class where I was held to a professional standard, and that itself was extremely valuable. I had so many code smells that no matter how well my code might have worked for the task, it stunk. Now I have a clearer picture on what my future career (hopefully sooner than later) will look like. I would go as far as saying that how this class was presented completely changed every aspect of how I view and approach programming.
 
-The linked list lab gave me some new insights into working with pointers that would could have worked as well. It also gave me some conceptual ideas of combining a map and a linked list.  With the map as somewhat of a hydra, with many heads of different object types, and each object type pointing to another object of the same type, so for example.  GroceryItems is the map, there are produce, fruit, canned goods, etc... as unique categories within the map, and each category within the map branches out into a linked list of each object that falls under that category.
+The linked list lab gave me some new insights into working with pointers that would could have worked as well. It also gave me some conceptual ideas of combining a map and a linked list.  With the map as somewhat of a hydra, with many heads of different object types, and each object type pointing to another object of the same type, so for example. GroceryItems is the map, there are produce, fruit, canned goods, etc... as unique categories within the map, and each category within the map branches out into a linked list of each object that falls under that category.
 
 ## Extensibility
 *How did you make this program maintainable, readable, and adaptable?*
