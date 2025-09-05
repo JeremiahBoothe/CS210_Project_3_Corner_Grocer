@@ -139,6 +139,9 @@
     <None Include="GroceryItemClass.cd" />
     <None Include="README.md" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="CS210_Project_Three_Input_File.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

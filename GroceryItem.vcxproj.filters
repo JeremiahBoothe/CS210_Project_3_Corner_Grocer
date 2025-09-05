@@ -37,4 +37,9 @@
     <None Include="README.md" />
     <None Include="GroceryItemClass.cd" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="CS210_Project_Three_Input_File.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
 </Project>
